@@ -1,0 +1,538 @@
+*{
+	direction: rtl;
+   margin-top: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	list-style-type: none;
+}
+#box_tamas {
+	height: 55px;
+	width: 200px;
+	position: fixed;
+	bottom: 185px;
+	right: 15px;
+	background-color: white;
+	z-index: 999;
+}
+
+#tamas {
+	height: 75px;
+	width: 75px;
+	position: fixed;
+	bottom: 100px;
+	right: 10px;
+	border-radius: 50%;
+	z-index: 999;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 200px;
+	background-image:url(../img/index.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+}
+
+#top_right {text-align: center;
+	width: auto;
+	height: auto;
+	
+}
+
+#top_left {
+	width: 500px;
+	height:auto;
+}
+
+#pc {
+	height: 250px;
+	width: 250PX;
+	margin-left: 50px;
+}
+
+.button {
+	width: 200px;
+	height: 50px;
+}
+
+#tarefe {
+	border-radius: 10px;
+	background-color:#5facfa;
+}
+
+#hala {
+	border-radius: 10px;
+	background-color: #7ccc77;
+}
+
+.menu_top {
+float: right;
+		list-style-type: none;
+		margin-right: 15px;	
+}
+
+#parent {
+	height: 90px;
+	position: sticky;
+	top: 0;
+	z-index: 888;
+	border-bottom: solid 1px gray;
+}
+
+
+
+#pic-test{
+	width: 150px;
+	height: 90px;
+}
+
+#menutop {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	background-color: white;
+	position: sticky;
+	top: 0px;
+	z-index: 888;
+	border-bottom: solid 1px gray;
+	border-top: solid 1px gray;
+}
+
+#vorod {
+	width: 100px;
+	height: 50px;
+	border-radius: 10%;
+}
+
+#sabtenam {
+	background-color:#f58;
+	width: 100px;
+	height: 50px;
+	border-radius: 10%;
+}
+
+.marginleft50px {
+	margin-left: 50px;
+}
+
+.marginleft75px {
+	margin-left: 75px;
+}
+
+#first {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+} 
+
+#first_right {
+	text-align: right;
+	width: 450px;
+	
+}
+
+.text1 {margin-top: -70px;
+	padding-right: 100px;
+	
+}
+
+.icon {
+	
+	border-radius: 50%;
+}
+
+.text2 {
+	
+	padding-right: 100px;
+	color: gray;
+}
+
+#first_center {position: relative;
+	width: 450px;
+}
+
+#first_left {position: relative;
+	width: 450px;
+}
+
+
+#second_right {
+margin-top: 100px;
+}
+
+#paiin {background-color: #f9f8fd;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.caption-second {
+	color: gray;
+}
+
+.icon-second {
+	width: 40px;
+	height: 40px;
+}
+
+.marginright50px {
+	margin-right: 50px;
+}
+
+#second_left {width: 450px;
+	
+}
+
+#laptop {
+	width: 450px;
+	height: 400px;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	
+}
+
+.width400px {
+	width: 500px
+}
+
+
+
+#fourth {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 150px;
+}
+
+
+#third {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.pic-third {margin-right:20px; 
+	width: 425px;
+	height: 320px;
+}
+
+#nemone_bishtr {
+	background-color: #74C3E7;
+	width: 180px;
+	height: 60px;
+	border-radius: 10px;
+	margin-left: 100px;
+}
+
+#fourth-left {
+	width: 600px;
+}
+
+#fourth-right {
+	width: 400px;
+	margin-right: 200px;
+	margin-top: -20px;
+}
+
+#fiveth_right {
+	width: 700px;
+}
+
+#fiveth_left {
+	width: 500px;
+}
+
+#fiveth {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top:150px;
+}
+
+#name_fiveth {
+	height: 50px;
+	width: 200px;
+}
+#web-fiveth{
+	width: 600px;
+	height: 50px;
+}
+#tell_fiveth {
+	height: 50px;
+	width: 300px;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#mail_fiveth {
+	height: 50px;
+	width: 300px;
+	margin-right: -6px;
+}
+
+#sub_fiveth {
+	height: 50px;
+	width: 600px;
+}
+
+#text_fifth {
+		width: 600px;
+	height: 300px;
+}
+
+#btn_aboutus {
+	height: 50px;
+	width: 240px;
+}
+
+#btn_joinus {
+	height: 50px;
+	width: 240px;
+}
+
+#btn_fiveth_right {
+	background-color:  #8385D3;
+	border-radius: 10px;
+		width: 250px;
+	height: 50px;
+}
+
+#btb_fiveth_left {
+	background-color: #91E973;
+	border-radius: 10px;
+		width: 250px;
+	height: 50px;
+}
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	background: #36373b;
+	color: gray;
+}
+
+#footer_right {
+	width: 300px;
+		margin:50px;
+}
+
+#footer_second {
+	
+}
+
+
+
+#footer_fourth {
+	width: 400px;
+	margin: 50px;
+}
+
+#pic-logo {
+	
+}
+
+#third-head {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+
+#caption_third {
+	color: gray;
+}
+
+
+
+#btn_fourth {
+	background-color: #BD4DBA;
+	border-radius: 8px;
+	width: 160px;
+	height: 50px;
+}
+
+#btn_efourth {
+	background-color: #BD4DBA;
+	border-radius: 8px;
+	width: 160px;
+	height: 50px;
+}
+
+#btn_aboutus_footer {
+	height: 50px;
+	width: 130px;
+	background-color: #47484d;
+	border: none;
+	border-radius: 5px;
+	color: gray;
+}
+
+#btn_tamasbama_footer {
+	right: 200px;
+	height: 50px;
+	width: 130px;
+	background-color: #47484d;
+	border: none;
+	border-radius: 5px;
+	color: gray;
+	
+}
+
+.menu_footer_first {
+	margin-top: 15px;
+	font-size: 14px;
+	color: gray;
+}
+
+#Eshtrak {
+	border: none;
+	border-top-left-radius: 3px;
+	background-color: #ff316f;
+	color: white;
+	width: 130px;
+	height: 48px;
+	margin-right: -10px;
+}
+
+#post {
+	border: none;
+	border-top-right-radius: 3px;
+	background-color: #47484d;
+	color: gray;
+	width: 220px;
+	height: 48px;
+}
+
+#btn-last {
+	display: flex;
+	height: 80px;
+	margin-top: 5px;
+}
+
+#paiin div{
+	width: 430px;
+	margin: 50px;
+}
+#third div{
+	height: 400px;
+}
+
+.adress {
+	padding-right: 26px;
+	margin:-28px 0px 20px 0px;
+	
+}
+
+#address_icon {
+	margin-top: 5px;
+}
+
+.size {
+	height: 17px;
+	width: 17px;
+}
+
+#icon-dstresi {
+	padding-right: 150px;
+	margin-top: -40px;
+}
+
+#menufooter_first {
+	width: 170px;
+	margin: 50px;
+}
+
+#menufooter_second {
+	margin-top: 80px;
+	margin-right:50px;
+	width: 200px;
+}
+
+#hoghogh {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #2b2d30;
+}
+
+#text_hoghogh {
+	color: gray;
+	font-size: 14px;
+}
+
+
+
+.color-white {
+	color: white;
+}
+
+
+
+#pair-footer {
+	display: flex;
+	color: gray;
+	margin-bottom: 50px;
+}
+
+
+
+.color-gray {
+	color: gray;
+}
+
+.br {
+	display: flex;
+	flex-direction: column;
+}
+
+#tblighat {
+	color: gray;
+	padding-right: 20px;
+}
+
+.margine10px {
+	margin-top: 10px;
+}
+
+#box_footer {
+	font-size: 14px;
+	background-color: #fce9ea;
+	color:#ff316f;
+	padding: 22px;
+	padding-right: 56px;
+	padding-left: 56px;
+}
+.flesh:before{
+	content: '\261F';
+	font-size: 18px;
+	margin-left: 5px;
+}
+
+#menutop li {
+	padding: 20px;
+}
+.submenu{
+	display: none;
+}
+
+#menutop li:hover .submenu{
+	display: block;
+}
+
+
+
+
+
